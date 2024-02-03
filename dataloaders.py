@@ -1,5 +1,4 @@
 from torch.utils.data import random_split
-from build_dataset import CustomGraphDataset
 from torch_geometric.data import DataLoader
 from graph_image_builder import graph_pic_gen
 import torch.nn as nn 
